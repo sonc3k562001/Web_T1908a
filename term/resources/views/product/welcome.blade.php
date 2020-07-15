@@ -30,7 +30,7 @@
     <a href="{{route('product.index')}}" class="header-brand">SONDZ</a>
     <nav>
         <ul>
-            <li><a href="http://127.0.0.1:8000/product">Click here</a></li>
+            <li><a href="{{route('product.index')}}">Click here</a></li>
         </ul>
     </nav>
 </header>
@@ -42,8 +42,8 @@
 <footer>
     <div class="container">
         <ul class="footer-links-main">
-            <li><a href="http://127.0.0.1:8000">Home</a></li>
-            <li><a href="http://127.0.0.1:8000/product">Product</a></li>
+            <li><a href="{{route('product.index')}}">Home</a></li>
+            <li><a href="{{route('product.index')}}">Product</a></li>
         </ul>
 
     </div>
