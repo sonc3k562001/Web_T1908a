@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('product.index');
+    return view('product.welcome');
 });
 Route::resource('/product', 'ProductController');
 Route::get('/search/name', 'ProductController@searchByName');
