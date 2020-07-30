@@ -1,7 +1,0 @@
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\bin\Debug\ReadOnly.exe.config
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\bin\Debug\ReadOnly.exe
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\bin\Debug\ReadOnly.pdb
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\obj\Debug\ReadOnly.csprojAssemblyReference.cache
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\obj\Debug\ReadOnly.csproj.CoreCompileInputs.cache
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\obj\Debug\ReadOnly.exe
-C:\Users\NGUYEN GIANG SON\Desktop\ReadOnly\obj\Debug\ReadOnly.pdb

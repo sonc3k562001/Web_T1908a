@@ -1,7 +1,0 @@
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\obj\Debug\Snippet.csprojAssemblyReference.cache
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\obj\Debug\Snippet.csproj.CoreCompileInputs.cache
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\bin\Debug\Snippet.exe.config
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\bin\Debug\Snippet.exe
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\bin\Debug\Snippet.pdb
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\obj\Debug\Snippet.exe
-C:\Users\NGUYEN GIANG SON\source\repos\Session05\Snippet\obj\Debug\Snippet.pdb
