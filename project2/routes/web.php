@@ -14,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('product.welcome');
+    return view('welcome');
 });
-Route::resource('/product', 'ProductController');
-Route::get('/search/name', 'ProductController@searchByName');
-
-Route::get('/search/id', 'ProductController@searchByEmail');
+Route::resource('/userb', 'UserbController');
+Route::resource('/image', 'ImageController');
+Route::resource('/image', 'ImageController');
