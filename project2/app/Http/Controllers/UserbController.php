@@ -9,11 +9,44 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Redirector;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 class UserbController extends Controller
 {
+
+
+    public function getLogin()
+    {
+        return view('login');//return ra trang login để đăng nhập
+    }
+
+    public function postLogin(Request $request)
+    {
+        $arr = [
+            'username' => $request->username,
+            'password' => $request->password,
+        ];
+        if ($request->remember == trans('remember.Remember Me')) {
+            $remember = true;
+        } else {
+            $remember = false;
+        }
+
+
+        if (Auth::guard('loyal_customer')->attempt($arr)) {
+
+            dd('đăng nhập thành công');
+
+        } else {
+
+            dd('tài khoản và mật khẩu chưa chính xác');
+
+        }
+    }
+
+
     public function index()
     {
         $Userb = Userb::all();
@@ -67,7 +100,7 @@ class UserbController extends Controller
                         } else {
                             $userb->save();
                             $request->image->move('img/gallery', $imageFullName);
-                            return redirect('/userb');
+                            return redirect('/login');
                         }
                     }
                 } else {
@@ -144,7 +177,7 @@ class UserbController extends Controller
         $userb -> imgFull = $imageFullName;
         $userb->save();
         $request->get('image')->move('img/gallery', $imageFullName);
-        return redirect('/userb');
+        return redirect('/login');
     }
 
     public function destroy($id)

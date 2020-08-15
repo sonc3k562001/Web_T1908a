@@ -10,7 +10,6 @@
     <style>
         body{
             background-color: #00b0e8;
-            color: white;
         }
         main{
             height: 700px;
@@ -38,7 +37,6 @@
 
 <main>
     @yield('main')
-
 </main>
 <footer>
     <div class="container">

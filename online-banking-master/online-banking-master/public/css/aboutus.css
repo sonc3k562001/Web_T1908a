@@ -1,0 +1,85 @@
+.intro{
+    margin-top: -3rem;
+    background-image: url("../images/nganhang1.png");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+}
+
+.container{
+}
+
+.intro-content{
+    margin: 9.5rem 0;
+    padding: 5rem;
+}
+
+.intro-content h1{
+    color: black;
+    font-size: 5.5rem;
+    line-height: 6rem;
+    font-weight: bolder;
+}
+
+.intro-content h3{
+    color: black;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+
+
+/*content*/
+.content .container h2{
+    color: #0e1555;
+    font-size: 4rem;
+    margin-top: 15rem;
+}
+.content .container h4{
+    margin-bottom: 1rem;
+}
+.content .image{
+    margin-top: 5rem;
+}
+.text2{
+    margin-left: 2rem;
+}
+.link{
+    color: #2991cc;
+    width: 100%;
+    font-size: 18px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgba(41,145,204,.1);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #2991cc;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 25px;
+    min-height: 43px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.container1{
+    background-color: rgba(211, 211, 211, 0.21);
+    height: 300px;
+    margin-top: 5rem;
+}
+.container1 h1{
+    padding-top:8rem;
+    color: #2991cc;
+}
+.container1 p{
+    font-size: 20px;
+    margin-top: 20px;
+}

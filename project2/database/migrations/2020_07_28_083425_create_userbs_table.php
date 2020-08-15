@@ -26,6 +26,7 @@ class CreateUserbsTable extends Migration
             $table->string('password');
             $table->boolean('status');
             $table->longText('imgFull');
+            $table->rememberToken();
             $table->timestamps();
         });
     }

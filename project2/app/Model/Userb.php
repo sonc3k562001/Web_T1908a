@@ -23,4 +23,9 @@ class Userb extends Model
         'status',
         'imgFull',
     ];
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+
+
 }
