@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.user-create{
+    margin: 10rem 0;
+}
+
+.user-create form{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.user-create .create-section h2{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    color: #145d8e;
+}
+
+.user-create .create-section h3{
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.user-create .create-section a{
+    text-decoration: underline;
+}
+
+.user-create form label{
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.user-create form input{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.user-create form select{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.user-create #submit{
+    text-decoration: none;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: white;
+    background-color: #2991cc;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.user-create #submit:hover{
+    background-color: #145d8e;
+    transition: 0.4s;
+}
+
+
+.create-section .icon-login{
+    margin: 2rem 0;
+}
+
+.create-section .icon-login .facebook{
+    padding: 1rem;
+    margin: 2rem 0;
+    color: #2991cc;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+
+.create-section .icon-login .facebook i{
+    float: left;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.create-section .icon-login .facebook:hover{
+    color: white;
+    background-color: #145d8e;
+    transition: 0.4s;
+}
+
+.create-section .icon-login .google{
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #EA4335;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+
+.create-section .icon-login .google i{
+    float: left;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.create-section .icon-login .google:hover{
+    color: white;
+    background-color: #EA4335;
+    transition: 0.4s;
+}
+
+.create-section form #text1,
+.create-section form #text2{
+    display: none;
+    color:red;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+
+

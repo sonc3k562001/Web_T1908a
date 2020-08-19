@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.account-login{
+    margin: 10rem 0;
+}
+
+.account-login .login-fill form{
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.account-login .login-fill form label{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.account-login .login-fill form input{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.account-login .login-fill #submit{
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: white;
+    background-color: #2991cc;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.account-login .login-fill #submit:hover{
+    background-color: #145d8e;
+    transition: 0.4s;
+}
+
+.account-login .login-fill h2 a{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+    color: #145d8e;
+}
+
+.account-login .login-fill h2:hover{
+    color: #2991cc;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.account-login .login-fill h3 a{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+    text-decoration: underline;
+    color: #EA4335;
+}
+
+.account-login .login-fill h3:hover{
+    color: red;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.account-login .icon-login .facebook{
+    padding: 1rem;
+    margin: 2rem 0;
+    color: #2991cc;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+
+.account-login .icon-login .facebook i{
+    float: left;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.account-login .icon-login .facebook:hover{
+    color: white;
+    background-color: #145d8e;
+    transition: 0.4s;
+}
+
+.account-login .icon-login .google{
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #EA4335;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+
+.account-login .icon-login .google i{
+    float: left;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.account-login .icon-login .google:hover{
+    color: white;
+    background-color: #EA4335;
+    transition: 0.4s;
+}
+
+.account-login .login-images img{
+    size: A3;
+    margin: 10rem 0;
+}
+
+
+
+
+
+
+
+

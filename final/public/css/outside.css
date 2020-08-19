@@ -1,0 +1,109 @@
+*{
+    font-family: 'Gentium Book Basic', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.transaction-outside h2{
+    margin: 2rem 0;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #2991cc;
+    text-align: center;
+}
+
+.transaction-outside{
+    margin: 10rem 0;
+}
+
+.transaction-outside .transaction-outside-section{
+    margin: 2rem 0;
+}
+
+.transaction-outside .transaction-outside-section form label{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.transaction-outside .transaction-outside-section form textarea{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding: 1rem;
+    resize: none;
+}
+
+.transaction-outside .transaction-outside-section form datalist{
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.transaction-outside .transaction-outside-section ul{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.transaction-outside .transaction-outside-section ul li{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 0.5rem 0;
+}
+
+.transaction-outside .transaction-outside-section input{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.transaction-outside form button{
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: white;
+    background-color: #2991cc;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 2rem 2rem 0 0;
+}
+
+.transaction-outside form #submit:hover{
+    background-color: #145d8e;
+    transition: 0.4s;
+}
+
+.transaction-outside form #reset:hover{
+    background-color: #EA4335;
+    transition: 0.4s;
+}
+
+.transaction-outside .recent-transaction{
+    margin: 5rem 0;
+}
+
+.transaction-outside .recent-transaction h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.transaction-outside .recent-transaction table td,
+.transaction-outside .recent-transaction table th{
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
