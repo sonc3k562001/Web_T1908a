@@ -13,7 +13,7 @@
         <div class = "container">
             <div class = "row">
                 <div class = "login-fill col-xs-6 col-md-6">
-                    <form class = "col-xs-12 col-md-12 text-center" action="{{url('/user')}}">
+                    <form class = "col-xs-12 col-md-12 text-center" method="post" >
                         <label for="account-name">Account/ Phone's Number:</label><br>
                         <input class = "col-xs-12 col-md-12" type="text" id="account-name" name="account-name" required><br><br>
                         <label for="account-password">Account's Password</label><br>

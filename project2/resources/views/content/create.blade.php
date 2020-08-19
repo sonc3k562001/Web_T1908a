@@ -12,7 +12,7 @@
                     <h2>Open up a OnlineBanking Account now</h2>
                     <h3>Already signed up? <a href = "{{url('/login')}}">Log in</a></h3>
 
-                    <form action="{{route('userb.store')}}" method="post" enctype="multipart/form-data">
+                    <form action="create" method="get" enctype="multipart/form-data">
                         @csrf
 
                         <label for="first_name">First Name:</label><br>
@@ -48,12 +48,6 @@
                         <label for="confirm_password">Confirm Password:</label><br>
                         <input class = "col-xs-12 col-md-12" type="password" id="confirm_password" name="confirm_password" placeholder="******" required><br><br>
                         <p id="text2">WARNING! Caps lock is ON.</p>
-
-                        <label for="image">Image:</label><br>
-                        <input type="file" name="image">
-
-                        <label for="status">Status:</label><br>
-                        <input type="number" name="status" placeholder="Status">
 
                         <button type="submit" name="submit">Update</button>
                     </form>
@@ -91,7 +85,7 @@
             }, [
                 {
                     source: engine1.ttAdapter(),
-                    name: 'userb-name',
+                    name: 'user-name',
                     display: function(data) {
                         return data.name;
                     },
@@ -103,7 +97,7 @@
                             '<div class="header-title">Name</div><div class="list-group search-results-dropdown"></div>'
                         ],
                         suggestion: function (data) {
-                            return '<a href="/userb/' + data.id + '" class="list-group-item">' + data.name + '</a>';
+                            return '<a href="/user/' + data.id + '" class="list-group-item">' + data.name + '</a>';
                         }
                     }
                 },
@@ -121,7 +115,7 @@
                             '<div class="header-title">Id</div><div class="list-group search-results-dropdown"></div>'
                         ],
                         suggestion: function (data) {
-                            return '<a href="/userb/' + data.id + '" class="list-group-item">' + data.id + '</a>';
+                            return '<a href="/user/' + data.id + '" class="list-group-item">' + data.id + '</a>';
                         }
                     }
                 }
@@ -173,7 +167,7 @@
                 },
                 {
                     source: engine2.ttAdapter(),
-                    id: 'userb-id',
+                    id: 'user-id',
                     display: function(data) {
                         return data.id;
                     },

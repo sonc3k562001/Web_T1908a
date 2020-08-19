@@ -13,13 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-route::get('/getLogin', 'UserbController@getLogin');
-route::post('/postLogin', 'UserbController@postLogin');
 
-Route::get('/welcome', function () {
+Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('/userb', 'UserbController');
+
+Route::post('showbalance','UserController@showBalance');
+
+Route::get('acc','UserController@getAcc');
+Route::post('acc','UserController@postAcc');
+
+Route::get('bank','UserController@getBank');
+Route::post('bank','UserController@postBank');
+
+Route::resource('/user', 'UserController');
 Route::resource('/image', 'ImageController');
 
 Route::get('/', function () {
@@ -34,13 +41,13 @@ Route::get('/blog', function(){
     return view('content.blog');
 });
 
-Route::get('/create',function(){
-    return view('content.create');
-});
+Route::get('create','UserController@getRegistration');
+Route::post('create','UserController@postRegistration');
 
-Route::get('/login',function(){
-    return view('content.login');
-});
+Route::get('login','UserController@getLogin');
+Route::post('login','UserController@postLogin');
+
+Route::get('logout','UserController@postLogout');
 
 Route::get('/inside',function(){
     return view('content.inside');
@@ -76,8 +83,4 @@ Route::get('/making', function () {
 
 Route::get('/protect', function () {
     return view('content.protect');
-});
-
-Route::get('/upload2', function () {
-    return view('userb.upload2');
 });
