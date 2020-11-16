@@ -1,0 +1,22 @@
+﻿@*model IQueryable<Product>*@
+@model ProductsListViewModel
+
+@foreach (var p in Model.Products)
+{
+    <div class="col-4" style="float: left;">
+        <img src="@p.Img" alt="" style="width:20vw;height:20vw;" />
+        <h3 style="color:red;text-align:center">@p.Name</h3>
+        <b>Decription:</b> @p.Description
+        <br />
+        <b>Price:</b> @p.Price.ToString("c")
+        <br />
+        <b>Category:</b> @p.Category
+        <br />
+        <b>Status:</b> @p.Status
+        <br />
+        <b>Discout:</b>  <strick>@p.Discount.ToString("c")</strick>
+        <hr />
+    </div>
+}
+
+<div page-model="@Model.PagingInfo" page-action="Index"></div>
