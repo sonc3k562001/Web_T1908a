@@ -1,0 +1,36 @@
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.deps.json
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.dll
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.pdb
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Data.dll
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Data.pdb
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csprojAssemblyReference.cache
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.AssemblyInfoInputs.cache
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.AssemblyInfo.cs
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csproj.CoreCompileInputs.cache
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csproj.CopyComplete
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.dll
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.pdb
+c:\microsoftProjects\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.deps.json
+c:\microsoftProjects\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.dll
+c:\microsoftProjects\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.pdb
+c:\microsoftProjects\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Data.dll
+c:\microsoftProjects\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Data.pdb
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csprojAssemblyReference.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.AssemblyInfoInputs.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.AssemblyInfo.cs
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csproj.CoreCompileInputs.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csproj.CopyComplete
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.dll
+c:\microsoftProjects\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.pdb
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.deps.json
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.dll
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Service.pdb
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Data.dll
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\bin\Debug\netcoreapp2.2\Shop.Data.pdb
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csprojAssemblyReference.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.AssemblyInfoInputs.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.AssemblyInfo.cs
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csproj.CoreCompileInputs.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.csproj.CopyComplete
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.dll
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Service\obj\Debug\netcoreapp2.2\Shop.Service.pdb

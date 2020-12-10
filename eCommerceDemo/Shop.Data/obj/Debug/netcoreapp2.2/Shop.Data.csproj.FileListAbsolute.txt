@@ -1,0 +1,36 @@
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.deps.json
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.runtimeconfig.json
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.runtimeconfig.dev.json
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.dll
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.pdb
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.AssemblyInfoInputs.cache
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.AssemblyInfo.cs
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.csproj.CoreCompileInputs.cache
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.dll
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.pdb
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.genruntimeconfig.cache
+C:\Users\apps\Downloads\FoodStore-master (1)\FoodStore-master\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.csprojAssemblyReference.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.deps.json
+c:\microsoftProjects\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.runtimeconfig.json
+c:\microsoftProjects\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.runtimeconfig.dev.json
+c:\microsoftProjects\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.dll
+c:\microsoftProjects\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.pdb
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.AssemblyInfoInputs.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.AssemblyInfo.cs
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.csproj.CoreCompileInputs.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.dll
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.pdb
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.genruntimeconfig.cache
+c:\microsoftProjects\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.csprojAssemblyReference.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.deps.json
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.runtimeconfig.json
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.runtimeconfig.dev.json
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.dll
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\bin\Debug\netcoreapp2.2\Shop.Data.pdb
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.csprojAssemblyReference.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.AssemblyInfoInputs.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.AssemblyInfo.cs
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.csproj.CoreCompileInputs.cache
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.dll
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.pdb
+C:\Users\son10\OneDrive\Máy tính\eCommerceDemo\Shop.Data\obj\Debug\netcoreapp2.2\Shop.Data.genruntimeconfig.cache
