@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<style>
+    footer {
+        width: 100%;
+        height: 395px;
+        float: left;
+    }
+
+        footer .widgets-wapper {
+            padding-top: 80px;
+            width: 100%;
+            height: 305px;
+        }
+
+    .columns-footer-one {
+        float: left;
+        position: initial !important;
+    }
+
+        .columns-footer-one h3 {
+            color: #ffa5ba;
+            font-family: "Titan One", Arial, Tahoma, sans-serif;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 400;
+            letter-spacing: 0px;
+        }
+
+        .columns-footer-one h2 {
+            color: #d41442;
+            font-family: "Titan One", Arial, Tahoma, sans-serif;
+            font-size: 60px;
+            line-height: 60px;
+            font-weight: 400;
+            letter-spacing: 0px;
+        }
+
+    .columns-footer-two {
+        float: left;
+        position: initial;
+    }
+
+        .columns-footer-two p {
+            display: inline-flex;
+            padding-left: 400px;
+            font-size: 35px;
+            float: right;
+            width: 100%;
+        }
+
+            .columns-footer-two p a {
+                color: #ffa5ba;
+                border-radius: 100%;
+                padding-right: 20px;
+            }
+
+                .columns-footer-two p a:hover {
+                    color: #d41442;
+                    transition: 2s;
+                }
+
+                .columns-footer-two p a i {
+                    background: #ffa5ba;
+                    color: #fff5f7;
+                }
+
+        .columns-footer-two h6 {
+            float: right;
+            width: 100%;
+            font-family: "DM Sans", Arial, Tahoma, sans-serif;
+        }
+
+            .columns-footer-two h6 span {
+                color: #d41442
+            }
+
+    .text-contact-footer {
+        margin-top: 20px;
+        font-weight: 500;
+        float: right;
+        font-family: "DM Sans", Arial, Tahoma, sans-serif;
+    }
+
+    .footer-copy {
+        width: 100%;
+        height: 90px;
+        border-top: 1px solid #b3a0a4;
+    }
+
+    .copy-right {
+        text-align: center;
+        padding-top: 35px;
+    }
+
+        .copy-right span {
+            color: #907e82
+        }
+
+        .copy-right a {
+            color: #ffa5ba;
+        }
+
+            .copy-right a:hover {
+                color: #a8092f;
+                transition: 2s;
+            }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #fff5f7;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    .logo {
+        float: left;
+        padding-top: 30px;
+    }
+
+    .top-bar-left {
+        width: 100%;
+        height: 120px
+    }
+
+    .logo a {
+        text-decoration: none;
+    }
+
+        .logo a span {
+            color: #d41442;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 400;
+            letter-spacing: 0px;
+            font-family: "Titan One", Arial, Tahoma, sans-serif;
+        }
+
+    .menu-wrapper {
+        float: left;
+        height: 120px;
+    }
+
+    .menu-ul {
+        padding: 30px 50px;
+    }
+
+        .menu-ul li {
+            list-style: none;
+            float: left;
+            margin-left: 30px;
+            color: white;
+        }
+
+            .menu-ul li a {
+                text-decoration: none;
+            }
+
+                .menu-ul li a span {
+                    color: white;
+                    font-family: "DM Sans", Arial, Tahoma, sans-serif;
+                    font-size: 16px;
+                    position: relative;
+                    z-index: 2;
+                }
+
+                    .menu-ul li a span:hover {
+                        color: #d41442;
+                        transition: 2s
+                    }
+</style>
+
+<body>
+
+
+    <div style="background:#f9b3cf;">
+        <div class="container">
+            <div class="top-bar-left">
+                <div class="logo">
+                    <a href="/#"><span>ICE CREAM</span></a>
+                </div>
+                <div class="menu-wrapper">
+                    <ul class="menu-ul">
+
+                        <li><a asp-controller="Home" asp-action="Index"><span>Home</span></a></li>
+                        <li><a asp-controller="Recipe" asp-action="Index"><span style="color:#d41442;font-size:20px">Recipe</span></a></li>
+                        <li><a asp-controller="About" asp-action="Index"><span>About</span></a></li>
+                        <li><a asp-controller="Contact" asp-action="Index"><span>Contact</span></a></li>
+                        <partial name="_LoginPartial" />
+                    </ul>
+                </div>
+            </div>
+            <div class="top-bar-right">
+                <div class="login">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="widgets-wapper">
+            <div class="container">
+                <div class="columns-footer-one col-6">
+                    <h3>HOMEMADE ICE CREAM MADE</h3>
+                    <h2>WITH PASSION</h2>
+                </div>
+                <div class="columns-footer-two col-6">
+                    <p>
+                        <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>
+                        <a href="facebook.com"><i class="fab fa-facebook-square"></i></a>
+                        <a href="skype.com"><i class="fab fa-skype"></i></a>
+                    </p>
+                    <div class="text-contact-footer">
+                        <h6>
+                            Feel free to contact
+                            <span>+84 1892938283</span>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="copy-right">
+                <span> © 2020 BeIceCream 2 - BeTheme. All Rights Reserved. </span>
+                <a target="_blank" href="#">About Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+@*<header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebApplication1</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>*@
