@@ -11,10 +11,18 @@ namespace WebApplication1.Areas.Identity.Data
     {
         [PersonalData]
         [Column (TypeName ="nvarchar(100)")]
-        public string FirstName { get; set; }
+        public string Name { get; set; }
 
         [PersonalData]
         [Column(TypeName = "nvarchar(100)")]
-        public string LastName { get; set; }
+        public string Birthday { get; set; }
+
+        [PersonalData]
+        [Column(TypeName = "nvarchar(100)")]
+        public string Phone { get; set; }
+
+        [PersonalData]
+        [Column(TypeName = "nvarchar(100)")]
+        public string Address { get; set; }
     }
 }

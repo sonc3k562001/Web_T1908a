@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kaq/ZWj9qkDgBH6HRGSoj4Th4NloiLowaDg5fd0mO/3TD0i07UWi12Ndg0kbnsMY6kOAxWTXzXjroE7+VNhXzw==",
+  "dgSpecHash": "ZtNUNHUWuqk/WQrvWaVfnKgDCmC+t3+OSgDomfWMU+9bgD/hjl1j1BILUoP/yVNttSjIiDHAqicOg0teQ80oyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\son10\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\son10\\OneDrive\\Tài liệu\\GitHub\\Web_T1908a\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\son10\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
     "C:\\Users\\son10\\.nuget\\packages\\microsoft.aspnet.providers.core\\2.0.0\\microsoft.aspnet.providers.core.2.0.0.nupkg.sha512",
